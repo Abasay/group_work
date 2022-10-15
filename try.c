@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
  * print_line - printing line
  * @n: param n
@@ -15,3 +16,9 @@ int main(void)
 {
 	return (0);
 }
+
+int main(void)
+{
+	printf("We are printing a line\n");
+	printf_line(9);
+
